@@ -7,7 +7,7 @@ void setup()
   background(255);
   noStroke();
 
-  aBunch = new Particle[9000];
+  aBunch = new Particle[6000];
   for (int i =0; i< aBunch.length; i++)
   {
     aBunch[i] = new Normal();
